@@ -223,6 +223,16 @@ p{
 
 /*media queries*/
 
+@media (max-width:991px){
+	.carousel-inner {
+    margin-bottom: 2.8125rem;
+	}
+	.carousel-inner .item p {
+    line-height: 1.5rem;
+    margin: 1.25rem 0;
+}
+}
+
 @media (max-width:767px){
 	#design-text-carousel{
 		text-align:center;
